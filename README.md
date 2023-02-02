@@ -6,7 +6,7 @@
 ## 使用方式：
 1、下载
 ```
-git clone
+git clone https://github.com/sola614/node-ddns.git
 ```
 2、安装nodejs
 ```
