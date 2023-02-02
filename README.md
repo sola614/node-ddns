@@ -21,7 +21,7 @@ npm i pm2 -g
 ```
 4、使用pm2运行
 ```
-pm2 start ./cf.js --name cf-ddns --log-date-format="YYYY-MM-DD HH:mm:ss"
+npm run build:cf
 或
-pm2 start ./ali.js --name ali-ddns --log-date-format="YYYY-MM-DD HH:mm:ss"
+npm run build:ali
 ```
