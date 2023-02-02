@@ -3,7 +3,7 @@
 ## 支持方式：  
 1、Cloudflare Api
 
-##使用方式：
+## 使用方式：
 1、下载
 ```
 git clone
