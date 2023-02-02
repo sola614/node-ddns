@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run test",
     "start": "cross-env NODE_ENV=dev nodemon index.js",
-    "build": "pm2 delete ddns && npm i  && cross-env NODE_ENV=prod pm2 start index.js -n ddns"
+    "build:cf": "pm2 delete ddns && npm i  && cross-env NODE_ENV=prod pm2 start cf.js -n ddns"
   },
   "author": "sola",
   "license": "ISC",
