@@ -2,7 +2,7 @@
 自用nodejs版本的ddns脚本，间隔2分钟检测ip是否有更改  
 ## 支持方式：  
 1、Cloudflare Api  
-1、阿里DNS Api
+2、阿里DNS Api
 
 ## 使用方式：
 1、下载
