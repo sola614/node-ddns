@@ -5,6 +5,9 @@
 
 ##使用方式：
 1、下载
+```
+git clone
+```
 2、安装nodejs
 ```
 wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh
