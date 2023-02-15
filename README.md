@@ -22,7 +22,6 @@ npm i pm2 -g
 4、使用pm2运行
 ```
 cd ./node-ddns
-npm i
 最后：
 npm run build:cf
 或
