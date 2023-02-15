@@ -6,8 +6,8 @@
   "scripts": {
     "test": "npm run test",
     "start": "cross-env NODE_ENV=dev nodemon cf.js",
-    "build:cf": "pm2 delete cf-ddns && npm i  && cross-env NODE_ENV=prod pm2 start ./cf.js --name cf-ddns --log-date-format=\"YYYY-MM-DD HH:mm:ss\"",
-    "build:ali": "pm2 delete ali-ddns && npm i  && cross-env NODE_ENV=prod pm2 start ./ali.js --name ali-ddns --log-date-format=\"YYYY-MM-DD HH:mm:ss\"",
+    "build:cf": "npm i  && cross-env NODE_ENV=prod pm2 start ./cf.js --name cf-ddns --log-date-format=\"YYYY-MM-DD HH:mm:ss\"",
+    "build:ali": "npm i  && cross-env NODE_ENV=prod pm2 start ./ali.js --name ali-ddns --log-date-format=\"YYYY-MM-DD HH:mm:ss\""
   },
   "author": "sola",
   "license": "ISC",
